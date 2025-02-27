@@ -1,0 +1,16 @@
+{
+  "name": "my-cli-scraper",
+  "version": "1.0.0",
+  "description": "A CLI tool to fetch and extract text from a URL using a CSS selector",
+  "main": "bin/cli-app.js",
+  "bin": {
+    "scraper": "bin/cli-app.js"
+  },
+  "scripts": {
+    "start": "node bin/cli-app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}

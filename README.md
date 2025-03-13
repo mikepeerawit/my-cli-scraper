@@ -68,32 +68,3 @@ For convenience, you can link the package globally. This will allow you to run t
    ```bash
    scraper "https://example.com" "h1"
    ```
-
-## Git Setup
-
-To initialize a Git repository and commit your changes, use the following commands:
-
-1. **Initialize Git:**
-
-   ```bash
-   git init
-   ```
-
-2. **Add Files:**
-
-   ```bash
-   git add .
-   ```
-
-3. **Make Your First Commit:**
-
-   ```bash
-   git commit -m "Initial commit with project structure and CLI tool"
-   ```
-
-4. **Link to a Remote Repository (e.g., GitHub):**
-
-   ```bash
-   git remote add origin https://github.com/yourusername/my-cli-scraper.git
-   git push -u origin master
-   ```
